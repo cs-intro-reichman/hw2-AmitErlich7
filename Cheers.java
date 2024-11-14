@@ -15,6 +15,7 @@ public class Cheers {
                         }
                         j++;
                 }
+                System.out.println("What does that spell?");
                 for (int k = 0; k < numOfTimes; k++) {
                         System.out.println(name + "!!!");
                 }
