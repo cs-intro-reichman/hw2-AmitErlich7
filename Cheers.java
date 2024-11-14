@@ -19,5 +19,6 @@ public class Cheers {
                 for (int k = 0; k < numOfTimes; k++) {
                         System.out.println(name + "!!!");
                 }
+                System.err.println();
         }
 }
