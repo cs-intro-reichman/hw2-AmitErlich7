@@ -5,7 +5,7 @@ public class CalcPi {
 		int divisor = 3;
 		double div = (double) 1 / divisor;
 		double sum = (double) 1;
-		for (int i = 0; i < num; i++) {
+		for (int i = 0; i < num - 1; i++) {
 			if (sign == true) {
 				sum = sum - div;
 			}
